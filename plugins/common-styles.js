@@ -1,10 +1,14 @@
-const commonStyles = {
-  ':root, .theme-dark': {
-    '--co-bgcolor': '#000'
+module.exports = {
+  ':root,.theme-dark': {
+    '--co-bgcolor': '#1b1b24',
   },
-  '.theme-light': {
+  '#root,.theme-light': {
+    '--co-bgcolor': 'rgb(255, 255, 255)',
+  },
+  '[data-theme=dark]': {
+    '--co-bgcolor': '#1b1b24'
+  },
+  '[data-theme=light]': {
     '--co-bgcolor': '#fff'
   }
 }
-
-module.exports = commonStyles

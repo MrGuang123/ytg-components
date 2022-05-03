@@ -7,9 +7,10 @@ const ytgComponents = plugin(({ addBase, addComponents, theme }) => {
   // 主题拓展
   theme: {
     // 拓展颜色：bg|text|...-c-select-hover
-    colors: {
-      'c-select-hover': 'var(--co-bgcolor)'
-    }
+    // colors: {
+    //   'c-select-hover': 'var(--co-bgcolor)'
+    // }
+    extend: {}
   }
 })
 
